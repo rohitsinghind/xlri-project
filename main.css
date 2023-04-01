@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.nav{
+    padding: 10px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 5px 4px #d6d6d6;
+}
+.xlriLogo{
+    width:100px;
+    height:auto
+}
+
+.navTxt{
+    font-family: 'Inter', sans-serif;
+    font-size: 26px;
+    color: #1B4E9B;
+    font-weight: 700;
+}
+
+.logobox{
+    /* width: 230px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 0px;
+    background-color: #f5f5f5;
+}
+
+.head1{
+    font-family: 'Inter', sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.text1{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    width: 887px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.whatsappBtn{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 7px 0px;
+    padding-right: 7px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 30px 0px;
+}
+
+.whatsappBtn:hover{
+    border: 1px solid #2d2d2d;
+    box-shadow: 2px 2px #d6d6d6;
+}
+
+.whatsappicon{
+    height: 18px;
+    width: auto;
+}
+
+.searchSec{
+    width: 70%;
+    display: flex;
+    justify-content: end;
+    margin: 20px 0px;
+}
+
+.searchBox{
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    width: 250px;
+}
+
+.studentsBox{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 40px;
+    margin: 40px;
+}
+
+.studentCard{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background:white;
+    border-radius: 6px;
+    box-shadow: 3px 3px #d6d6d6;
+    cursor: pointer;
+}
+
+.studentCard:hover{
+    background:#D4EDFC;
+}
+
+.studentdetails{
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.studentImg{
+    width: 64px;
+    height: auto;
+    border-radius: 4px;
+}
+
+.studentName{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.studentEmail{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.studentLink{
+    width: 20px;
+    height: auto;
+}
+
+.loadMoreBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 5px 10px;
+    gap: 10px;
+    cursor: pointer;
+}
+
+.syncLogo{
+    width: 15px;
+    height: auto;
+}
+
+.footer{
+    background: #1B4E9B;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+}
+
+.footerLogo{
+    width: 263px;
+    height: auto;
+   
+}
+
+.footerTxt2{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+}
+
+.footerTxt3{
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+}
+
+.footerNav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    margin-top: 20px;
+}
+
+.footNavItem{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.footNavItem:hover{
+    font-weight: 700;
+}
+
+.SocialImgs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 130px;
+    margin-top: 20px;
+}
+
+.socialImg{
+    width: 27px;
+    height: auto;
+    cursor: pointer;
+}
+
+.footer2{
+    background: #134185;
+    padding: 15px 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer2Txt{
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+}
+
+@media screen and (max-width: 980px) {
+    .studentsBox{
+        grid-template-columns: auto auto;
+    }
+    .nav{
+        padding: 10px 30px;
+    }
+    .footer{
+        padding: 0px 30px;
+    }
+    .text1{
+        width: 80%;
+    }
+
+    @media screen and (max-width: 865px) 
+    {
+        .footer{
+            flex-direction: column;
+            height: 250px;
+            padding: 20px;
+        }
+        .resFooter{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin: 5px;
+        }
+        .footerTxt3{
+            text-align: center;
+        }
+        .footer2{
+            flex-direction: column;
+            gap: 5px;
+            padding: 15px 20px;
+        }
+        .logobox{
+            flex-direction: column;
+            gap: 20px;
+        }
+        .navTxt{
+            width: 300px;
+            text-align: center;
+        }
+        .searchSec{
+            justify-content: center;
+        }
+
+        @media screen and (max-width: 670px) 
+        {
+            .studentsBox{
+                grid-template-columns: auto;
+            }
+            .xlriLogo{
+                width: 70px;
+            }
+            .logobox img{
+                width: 70px;
+            }
+            .navTxt{
+                font-size: 20px;
+            }
+            .nav{
+                padding: 10px 10px;
+            }
+            .footNavItem{
+                width: 80px;
+            }
+        }
+    }
+
+   
+  }
